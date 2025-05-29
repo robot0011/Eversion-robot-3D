@@ -5,8 +5,10 @@ This project trains a 3D eversion robot using Stable Baselines3 (PPO). The envir
 ## 🛠 Setup
 
 1. **Create a virtual environment** (Python 3.7+ recommended):
+   ```bash
    python -m venv venv
-
+   ```
+   
 2. **Activate the environment**:
    - Windows:
      ```bash
