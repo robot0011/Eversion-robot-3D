@@ -1,5 +1,3 @@
-Here's a clear `README.md` file for your project:
-
 ```markdown
 # Reinforcement Learning for 3D Eversion Robot
 
