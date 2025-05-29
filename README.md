@@ -24,7 +24,7 @@ This project trains a 3D eversion robot using Stable Baselines3 (PPO). The envir
 
 3. **Install dependencies**:
    ```bash
-   pip install stable-baselines3[extra] gymnasium matplotlib numpy
+   pip install -r requirements.txt
    ```
 
 ## 🚀 Training the Model
@@ -52,18 +52,3 @@ python testing_rl_eversion_robot_3d.py
 ├── testing_rl_eversion_robot_3d.py # Testing script
 └── README.md                 # This file
 ```
-
-## ⚠️ Troubleshooting
-
-- **Error: "DummyVecEnv has no attribute X"**:  
-  Access the underlying env with `env.envs[0].attribute_name`.
-
-- **No visualization during testing**:  
-  Ensure `render()` is called in the testing loop:
-  ```python
-  real_env = env.envs[0]
-  real_env.render()  # Call this in your testing loop
-  ```
-
-- **Installation issues**:  
-  Upgrade pip first: `pip install --upgrade pip`
