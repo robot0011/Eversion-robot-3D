@@ -1,0 +1,2 @@
+ standard-imghdr
+ stable-baselines3[extra]
