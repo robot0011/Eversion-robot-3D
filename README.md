@@ -1,4 +1,3 @@
-```markdown
 # Reinforcement Learning for 3D Eversion Robot
 
 This project trains a 3D eversion robot using Stable Baselines3 (PPO). The environment simulates a soft robot navigating to a target while avoiding obstacles.
@@ -7,7 +6,6 @@ This project trains a 3D eversion robot using Stable Baselines3 (PPO). The envir
 
 1. **Create a virtual environment** (Python 3.7+ recommended):
    python -m venv venv
-   ```
 
 2. **Activate the environment**:
    - Windows:
